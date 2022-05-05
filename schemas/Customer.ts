@@ -8,6 +8,5 @@ export const Customer = list({
     email: text({isRequired: true, isUnique: true}),
     password: password(),
     address: text()
-    // TODO: add roles, cart and orders
   }
 })
